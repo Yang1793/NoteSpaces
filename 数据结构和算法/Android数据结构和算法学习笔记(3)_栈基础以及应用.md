@@ -1,9 +1,10 @@
-# 栈 
+# 栈
 
 ## 栈的概念
 <p>栈是限定仅在表尾进行插入和删除操作的线性表。</p>
 <p>允许插入和删除的一端称为栈顶（top），另一端称为栈底（bottom）,不含任何数据元素的栈称为空栈。栈又称为后进先出的线性表</p>
 
+<![](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/%E6%A0%88.png?raw=true)
 
 ## 栈的实现
 ### 顺序实现
