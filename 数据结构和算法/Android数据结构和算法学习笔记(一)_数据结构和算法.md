@@ -12,7 +12,7 @@
 ### 逻辑结构
 
 逻辑上数据结构分为：集合结构，线性结构，树形结构和集合结构。<br/>
-<img src="" width="" height=""/>
+<img src="https://raw.githubusercontent.com/Yang1793/NoteSpaces/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84.png" />
 
 ### 存储结构
 存储结构分为：表，堆栈，队列，数组，树，二叉树，图.
