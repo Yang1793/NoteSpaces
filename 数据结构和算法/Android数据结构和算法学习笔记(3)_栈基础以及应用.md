@@ -14,6 +14,7 @@
 ### 链式实现
 <p>链式实现就和单链表相同。</p>
 <p>插入元素</p>
+
 ```
     Node node = new Node();
     node.data = 插入的元素；
@@ -21,7 +22,9 @@
     stack.top = s;
     stack.size++;
 ```
+
 <p>移除元素</p>
+
 ```
     Node node = stack.top;
     stack.top = node.next;

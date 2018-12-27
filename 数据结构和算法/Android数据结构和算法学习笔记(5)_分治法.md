@@ -12,7 +12,7 @@
 <p>注意：设计成左闭右开--是一种区间无重复的思想
   random(０，１)等大量的数学函数
   for(int i=0;i<array.length;i++）</p>
-    
+
 ```
 private int binarySearch(int[] data, int aim) {
         if (data == null || data.length == 0) {

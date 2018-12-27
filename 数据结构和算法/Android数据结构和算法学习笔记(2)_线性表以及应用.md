@@ -32,6 +32,8 @@ n为线性表的长度 ，若n==0时，线性表为空表</p>
 <img src="https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/%E9%A1%BA%E5%BA%8F%E8%A1%A8%E6%8F%92%E5%85%A5.png?raw=true" />
 
 <p>当然 数组 或者 ArrayList 都是有初始容量的，比如ArrayList的默认容量为 10, 当容量不够用时，会先增长数组，ArrayList中是以1.5倍增长。（可能java版本不同，倍数不同）</p>
+
+
 ```
 public class ArrayList<E> extends AbstractList<E>
         implements List<E>, RandomAccess, Cloneable, java.io.Serializable

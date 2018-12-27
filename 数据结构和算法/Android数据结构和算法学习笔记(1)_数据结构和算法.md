@@ -34,6 +34,8 @@
 <p>通常O(n) 表示算法的效率，具体则是指算法所处理的数据个数n的函数（关键代码的执行次数）。</p>
 比如说下面这两段代码，function1的O(n)=n^2+n+1,function2的O(n)=n^2;<br/>
 他们的算法效率是相同的，因为当n趋向无穷大，function1的O(n)与function2的O(n)都是n^2;
+
+
 ```
 function1() {
    for(int i = 0; i < n; i++) {
@@ -47,6 +49,7 @@ function1() {
      //todo: dosomething;
 }
 ```
+
 ```
 function2() {
    for(int i = 0; i < n; i++) {
