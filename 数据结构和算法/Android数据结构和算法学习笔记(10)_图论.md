@@ -18,29 +18,29 @@
 
 在无向图中，任意连个顶点都存在边，则称为无向完全图。
 
-<![无向完全图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_1.png?raw=true)
+![无向完全图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_1.png?raw=true)
 
 #### 有向图
 用有序偶< Vi,Vj>来表示，Vi称为弧尾（Tail），Vj称为弧头（Head）。如果图中任意两个顶点之间的边都是有向边，则称该图为有向图（Directed Graphs）。
 
 在有向图中，如果任意两个顶点之间都存在方向互为相反的两条弧，则称该图为有向完全图。
 
-<![有向完全图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_2.png?raw=true)
+![有向完全图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_2.png?raw=true)
 
 #### 图的权
 有些图的边或弧具有相关的数字，这种与图的边或弧相关的数叫做权。
 
-<![边或弧的权](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_3.png?raw=true)
+![边或弧的权](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_3.png?raw=true)
 
 #### 连通图
 在无向图G中，如果从顶点V到顶点V'有路径，则称V和V'是连通的。如果对于图中任意两个顶点Vi,Vj ∈ E，Vi和Vj都是连通的，则称G是连通图(Connected Graph)。
 
-<![连通图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_4.png?raw=true)
+![连通图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_4.png?raw=true)
 
 #### 度
 无向图顶点的边数叫度，有向图顶点的边数叫做出度和入度。
 
-<![度](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_5.png?raw=true)
+![度](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_5.png?raw=true)
 
 ### 图的数据存储结构
 也正由于图的结构比较复杂，任意两个顶点之间都可能存在联系，因此无法以数据元素在内存中的物理位置来表示元素之间的关系，也就是说，图不可能用简单的顺序存储结构来表示。
@@ -50,15 +50,15 @@
 
 ##### 无向图
 
-<![无向图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_6.png?raw=true)
+![无向图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_6.png?raw=true)
 
 ##### 有向图
 
-<![有向图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_7.png?raw=true)
+![有向图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_7.png?raw=true)
 
 ##### 带权有向图
 
-<![带权有向图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_8.png?raw=true)
+![带权有向图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_8.png?raw=true)
 
 ##### 邻接矩阵的问题
 
@@ -68,15 +68,15 @@
 
 ##### 无向图
 
-<![无向图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_9.png?raw=true)
+![无向图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_9.png?raw=true)
 
 ##### 有向图
 
-<![有向图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_10.png?raw=true)
+![有向图](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_10.png?raw=true)
 
 ##### 带权
 
-<![带权](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_11.png?raw=true)
+![带权](https://github.com/Yang1793/NoteSpaces/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/graph_11.png?raw=true)
 
 ### 图的遍历
 
