@@ -11,7 +11,7 @@
 
 <img src="https://raw.githubusercontent.com/Yang1793/NoteSpaces/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/dp2_1.png" width='600' height='170' align=center/>
 
-<img src="https://raw.githubusercontent.com/Yang1793/NoteSpaces/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/dp2_2.png" width='600' height='1200' align=center/>
+<img src="https://raw.githubusercontent.com/Yang1793/NoteSpaces/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/dp2_2.png" width='600' height='1000' align=center/>
 
 ```
 /**
@@ -89,6 +89,7 @@ Dijkstra算法使用了广度优先搜索解决赋权有向图或者无向图的
 3. 寻找距离当前顶点权重最小的顶点。
 4. 根据新找到的顶点，修正权重。
 
+<img src='https://github.com/Yang1793/NoteSpaces/blob/graph_dp/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/dp2_3.png?raw=true' height='150' aling=center/>
 ```
 private static final int I = 100;
 private int[][] array=new int[][]{
@@ -103,3 +104,56 @@ private int[][] array=new int[][]{
             {I,I,I,I,I,I,7,4,0}
     };
 ```
+
+```
+private void dijkstraAlgorithms(){
+        //表示当前顶点
+        int k = 0;
+        //路径数组
+        int[] path = new int[array.length];
+        int[] weight = array[k];
+        //定义数组 保存顶点是否经过 下标代表顶点， --->  值代表是否经过这个顶点，0没有经过，1已经经过
+        int[] flag = new int[array.length];
+        flag[k] = 1;
+
+        for (int i = 0; i < array.length; i++) {
+            int min = I;
+
+            //找到距离最近的顶点
+            for (int j = 0; j < weight.length; j++) {
+                if (flag[j] == 0 && min > weight[j]) {
+                    min = weight[j];
+                    k = j;
+                }
+            }
+            flag[k] = 1;
+
+            //修正权重
+            for (int j = 0; j < weight.length; j++) {
+                if (flag[j] == 0 && min + array[k][j] < weight[j]) {
+                    weight[j] = min + array[k][j];
+                    path[j] = k;
+                }
+            }
+        }
+
+
+        for(int i=0;i<path.length;i++){
+            System.out.print(path[i]+" ");
+        }
+        System.out.println();
+        for(int i=0;i<weight.length;i++){
+            System.out.print(weight[i]+" ");
+        }
+
+        //打印结果
+        int v=8;
+        while(v!=0){
+            System.out.print(v + "--->" + path[v] + "  ");
+            v=path[v];
+        }
+
+    }
+```
+
+### 
