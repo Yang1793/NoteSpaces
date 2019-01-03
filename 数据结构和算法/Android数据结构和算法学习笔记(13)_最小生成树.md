@@ -55,7 +55,7 @@ private void kruskalAlgorithims(){
 
 实现结构：
 
-<img src='https://github.com/Yang1793/NoteSpaces/blob/graph_dp/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/dp3_1.png?raw=true' height='160' align=center/>
+<img src='https://github.com/Yang1793/NoteSpaces/blob/graph_dp/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/dp3_1.png?raw=true' width='' height='160' align=center/>
 
 全部代码：
 

@@ -78,6 +78,7 @@ public class Floye {
 
 ```
 
+------
 
 ### Dijkstra（迪杰斯特拉）算法
 
@@ -90,6 +91,8 @@ Dijkstra算法使用了广度优先搜索解决赋权有向图或者无向图的
 4. 根据新找到的顶点，修正权重。
 
 <img src='https://github.com/Yang1793/NoteSpaces/blob/graph_dp/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/picture/dp2_3.png?raw=true' height='150' aling=center/>
+
+
 ```
 private static final int I = 100;
 private int[][] array=new int[][]{
@@ -156,4 +159,4 @@ private void dijkstraAlgorithms(){
     }
 ```
 
-### 
+###
